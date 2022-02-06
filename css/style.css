@@ -1,0 +1,87 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Jura:300,regular,500,600,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Alumni+Sans:100italic&display=swap);
+
+body {
+    font-family: "Jura", sans-serif;
+    font-size: 18px;
+    background-color: burlywood;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+    margin: 0px 500px 20px 500px;
+    text-align: left;
+    /* padding-right: 200px; */
+    background-color: rgb(100, 177, 177);
+}
+
+h1 {
+    font-family: "Jura", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 65px;
+    margin-bottom: 96px;
+    color: rgba(85, 97, 52, 0.904);
+    text-shadow: 10px 10px 20px  rgba(53, 48, 48, 0.904);
+    background-color: rgba(169, 169, 169, 0.514);
+    
+}
+
+.gif {
+    width: 300px;
+    margin-top: -195px;
+    height: 195px;
+    
+}
+
+.block {
+    font-family: "Alumni+Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 310px;
+    font-weight: 400;
+}
+
+.image {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.904);
+}
+
+.subtitle {
+    font-family: "Jura", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.block-2 {
+    background-color: rgb(223, 190, 186);
+    margin-bottom: 24px;
+}
+
+.block-3 {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.text-paragraph {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.list {
+    padding: 0 70px 0;
+    margin-bottom: 15px;
+}
+
+.text {
+    margin-bottom: 24px;
+}
